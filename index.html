@@ -4,97 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сервис-провайдер по ремонту смартфонов, компьютерной, медицинской и бытовой техники</title>
+    
+
+    <!-- Подключение Swiper CSS и JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js" defer></script>
+
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
-
 </head>
 <body>
-    <div class="container">
+    <div class="brands__container">
         <h1 class="visually-hidden"></h1>
 
         <section class="brands">
             <h2 class="brands__heading">Ремонт техники различных брендов</h2>
-
-            <div class="brands__inner">
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+            
+            <div class="swiper">
+                <div class="swiper-wrapper brands__inner">
+                    <div class="swiper-slide brands__label">
                         <img src="img/lenovo.png" alt="Логотип Lenovo" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/samsung.png" alt="Логотип Samsung" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
-                        <img src="img/apple.png" alt="Логотип Apple" class="brands__image"></div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
+                        <img src="img/apple.png" alt="Логотип Apple" class="brands__image">
+                        <button class="brands__button-next"></button>
+                    </div>
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/viewsonic.png" alt="Логотип ViewSonic" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/bosh.png" alt="Логотип Bosh" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/hp.png" alt="Логотип Hp" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/acer.png" alt="Логотип Aser" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/sony.png" alt="Логотип Sony" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/lenovo.png" alt="Логотип Lenovo" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
-                </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
+                
+                    <div class="swiper-slide brands__label">
                         <img src="img/samsung.png" alt="Логотип Samsung" class="brands__image">
+                        <button class="brands__button-next"></button>
                     </div>
-                    <button class="brands__button-next"></button>
+                
+                    <div class="swiper-slide brands__label">
+                        <img src="img/apple.png" alt="Логотип Apple" class="brands__image">
+                        <button class="brands__button-next"></button>
+                    </div>
                 </div>
-
-                <div class="brands__label">
-                    <div class="brands__wrapper-img">
-                        <img src="img/apple.png" alt="Логотип Apple" class="brands__image"></div>
-                    <button class="brands__button-next"></button>
-                </div>
+                
+                <div class="swiper-pagination"></div>
             </div>
-            <button class="brands__show-all">Показать все</button>
+            
+            <!-- Градиентный слой -->
+            <div class="brands__gradient-overlay"></div>
+
+            <button class="brands__button--show">Показать все</button>
         </section>
     </div>
     
